@@ -1,0 +1,19 @@
+{
+  "name": "deps-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "author": "Kris Selden",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "amd-name-resolver": "0.0.6",
+    "rollup": "^0.34.10",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0"
+  }
+}

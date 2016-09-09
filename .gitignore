@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+tmp/
+dist/
+_out_/
+/*.js
+/*.js.map
+/*.d.ts
+*.dot
+*.pdf
+*.png
+*.ps
+*.log

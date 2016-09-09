@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2015",
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true
+  },
+  "files": [
+    "amd-name-resolver.d.ts",
+    "index.ts",
+    "node-set.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tmp"
+  ]
+}

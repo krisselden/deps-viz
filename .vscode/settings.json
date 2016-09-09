@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  }
+}
