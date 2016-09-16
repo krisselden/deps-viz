@@ -3,6 +3,8 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "search.exclude": {
     "**/node_modules": true,
+    "**/dist": true,
+    "**/_out_": true,
     "**/bower_components": true
   },
   "files.exclude": {
@@ -10,6 +12,13 @@
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
-    "**/.DS_Store": true
-  }
+    "**/.DS_Store": true,
+    "*.pdf": true,
+    "*.png": true,
+    "*.ps": true
+  },
+  "tslint.exclude": {
+    "node_modules": true
+  },
+  "tslint.ignoreDefinitionFiles": true
 }

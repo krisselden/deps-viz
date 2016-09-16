@@ -6,16 +6,16 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist"
   },
-  "files": [
-    "amd-name-resolver.d.ts",
-    "index.ts",
-    "node-set.ts"
+  "filesGlob": [
+    "src/**.ts"
   ],
   "exclude": [
-    "node_modules",
-    "dist",
-    "tmp"
+    "node_modules/**",
+    "dist/**",
+    "tmp/**"
   ]
 }
